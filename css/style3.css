@@ -1,0 +1,102 @@
+.dashboard-icons {
+  height: 22px;
+  width: 22px;
+  margin-right: 7px;
+  margin-bottom: 2px;
+}
+
+.new-radio {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.new-radio:last-of-type {
+  margin-left: 15px;
+}
+
+.new-label {
+  font-size: 18px;
+}
+
+.atuacao {
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+.atuacao-select {
+  margin-bottom: 20px;
+  height: 3rem;
+  width: 100%;
+}
+
+.select-contact {
+  height: 3rem;
+  width: 70%;
+}
+
+.remove-button {
+  position: fixed;
+}
+
+.table-atendimento {
+  text-align: left !important;
+  border-bottom: 1px solid #272727;
+  padding: 5px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.table-atendimento:last-child, .no-border {
+  border: none;
+}
+
+.table-atendimento .wd50:last-child {
+  border-left: 1px solid #272727;
+}
+
+.table-atendimento .wd50 {
+  width: 50%;
+}
+
+.table-atendimento .ht40 {
+  height: 40px;
+}
+
+.table-atendimento strong {
+  color: #000;
+}
+
+.alerta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.25s ease-out;
+  height: 3rem;
+  width: 35rem;
+  font-size: 1.3rem;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.success {
+  background: rgba(0, 128, 0, 0.8);
+}
+
+.error {
+  background: rgba(196, 52, 45, 0.8);
+}
+
+.limpar-mensagem {
+  display: none;
+}
+
+.logo-image {
+  height: 150px;
+  width: 150px;
+}
